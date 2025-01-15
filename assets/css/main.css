@@ -1258,16 +1258,22 @@ section,
 /* setting the image ok for screen size at phone level */
 @media (max-width: 575px) { 
   .hero img {  
-    margin-left: 0; 
+    margin-left: 0;
+    margin-bottom: 0;
     object-position: center; 
     width: 100%; 
     height: auto; 
   }
 
+    #hero {
+      margin-bottom: 0;
+    }
+
 
   .hero p {
     font-size: 12px; /* Adjust text size for smaller screens */
-    display: none;
+    /* display: none; */
+    transform: translateY(-50px);
   }
 
   .hero .linkedin-icon a i {
@@ -1275,24 +1281,28 @@ section,
   }
 
   .hero p .typed {
-    font-size: 8px; /* Adjust the text size of the typed span elements */
+    font-size: 10px; /* Adjust the text size of the typed span elements */
   }
 
   .hero h2 {
     font-size: 18px; /* Adjust the h2 size if needed */
+    transform: translateY(-50px); /* Moves the text up */
   }
 
   .hero .myname-container {
     display: flex;
-    align-items: flex-end; /* Vertically center the name and icon */
+    align-items: center; /* Vertically center the name and icon */
   }
   
   .hero .linkedin-icon-container {
     margin-left: 0px; /* Space between the name and the icon */
+    transform: translateY(-49px);
+ 
   }
   
   .hero .linkedin-icon {
     font-size: 10px; /* Smaller icon size */
+   
   }
 
 }
