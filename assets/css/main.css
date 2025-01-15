@@ -559,7 +559,7 @@ section,
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 50vh;
+  min-height: 65vh;
   position: relative;
   padding: 80px 0;
   display: flex;
@@ -1273,7 +1273,7 @@ section,
   .hero p {
     font-size: 12px; /* Adjust text size for smaller screens */
     /* display: none; */
-    transform: translateY(-50px);
+    transform: translateY(-40px);
   }
 
   .hero .linkedin-icon a i {
@@ -1286,7 +1286,7 @@ section,
 
   .hero h2 {
     font-size: 18px; /* Adjust the h2 size if needed */
-    transform: translateY(-50px); /* Moves the text up */
+    transform: translateY(-40px); /* Moves the text up */
   }
 
   .hero .myname-container {
@@ -1296,7 +1296,7 @@ section,
   
   .hero .linkedin-icon-container {
     margin-left: 0px; /* Space between the name and the icon */
-    transform: translateY(-49px);
+    transform: translateY(-39px);
  
   }
   
