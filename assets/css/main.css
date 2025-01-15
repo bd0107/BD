@@ -1273,7 +1273,7 @@ section,
   .hero p {
     font-size: 12px; /* Adjust text size for smaller screens */
     /* display: none; */
-    transform: translateY(-40px);
+    transform: translateY(-43px);
   }
 
   .hero .linkedin-icon a i {
@@ -1281,12 +1281,12 @@ section,
   }
 
   .hero p .typed {
-    font-size: 10px; /* Adjust the text size of the typed span elements */
+    font-size: 8px; /* Adjust the text size of the typed span elements */
   }
 
   .hero h2 {
     font-size: 18px; /* Adjust the h2 size if needed */
-    transform: translateY(-40px); /* Moves the text up */
+    transform: translateY(-43px); /* Moves the text up */
   }
 
   .hero .myname-container {
@@ -1296,7 +1296,7 @@ section,
   
   .hero .linkedin-icon-container {
     margin-left: 0px; /* Space between the name and the icon */
-    transform: translateY(-39px);
+    transform: translateY(-42px);
  
   }
   
